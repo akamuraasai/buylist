@@ -19,38 +19,38 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <List
-        items={Array []}
+      "children": Array [
+        <Modal
+          completed={true}
+          name="Tomate"
+          price={3.59}
+          unitType="kg"
+          units={3}
 />,
+        <List
+          items={Array []}
+/>,
+      ],
       "className": "ProductList",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "items": Array [],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "completed": true,
+          "name": "Tomate",
+          "price": 3.59,
+          "unitType": "kg",
+          "units": 3,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <List
-          items={Array []}
-/>,
-        "className": "ProductList",
-      },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
@@ -61,6 +61,58 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Modal
+            completed={true}
+            name="Tomate"
+            price={3.59}
+            unitType="kg"
+            units={3}
+/>,
+          <List
+            items={Array []}
+/>,
+        ],
+        "className": "ProductList",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "completed": true,
+            "name": "Tomate",
+            "price": 3.59,
+            "unitType": "kg",
+            "units": 3,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "items": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

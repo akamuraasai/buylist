@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import List from './components/List';
+import Modal from '../../Components/Modal';
 import './productList.css';
 
-const ProductList = ({ products }) => (
+const ProductList = ({ products, filter }) => (
   <div className="ProductList">
-    <List items={products} />
+    <Modal />
+    <List items={products} filter={filter} />
   </div>
 );
 

@@ -3,11 +3,17 @@ import PropTypes from 'prop-types';
 
 import Item from './Item';
 
-const List = ({ items }) => (
+const filterItems = (items, filter) =>
+  filter
+    ? items.filter(i => i.completed === false)
+    : items;
+
+const List = ({ items, filter }) => (
   <div className="ProductList__list">
-    {items.map(({ id, name, price, units, unitType, completed }) => (
+    {filterItems(items, filter).map(({ id, name, price, units, unitType, completed }) => (
       <Item
         key={id}
+        id={id}
         name={name}
         price={price}
         units={units}

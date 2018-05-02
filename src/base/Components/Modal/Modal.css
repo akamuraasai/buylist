@@ -1,0 +1,73 @@
+.Modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(41, 41, 41, 0.38);
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.Modal__content {
+    width: 90%;
+    height: 390px;
+    top: 20%;
+    position: relative;
+    margin: 5%;
+    padding: 2rem;
+    background: #fff;
+    color: #444;
+}
+
+.Modal__content > * > i {
+    color: #4183c4;
+}
+
+.Modal__content__name {
+    width: 230px !important;
+}
+
+.Modal__content__completed {
+    display: none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat;
+}
+
+.Modal__content > * > input[type=text] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    width: 70px;
+}
+
+.Modal__close {
+    float: right;
+}
+
+.Modal__button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #131313;
+    background-color: #b2c5ff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 #c1c1c1;
+}
+
+.Modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}

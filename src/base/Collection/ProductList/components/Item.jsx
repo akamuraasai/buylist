@@ -1,12 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 import moneyFormatter from '../../../../helpers/moneyFormatter';
+import { findById } from '../ProductList.actions';
 
 const toPrice = moneyFormatter;
 
-const Item = ({ name, price, units, unitType, completed }) => (
-  <div className={`ProductList__item ${completed ? 'is-complete' : ''}`}>
+const openModal = (id, findById) => {
+  findById(id);
+  window.location = '#modal';
+}
+
+const Item = ({ id, name, price, units, unitType, completed, find }) => (
+  <div
+    className={`ProductList__item ${completed ? 'is-complete' : ''}`}
+    onClick={() => openModal(id, find)}
+  >
     <div className="ProductList__item__image">
       <img src="http://via.placeholder.com/60x60" alt="product" />
     </div>
@@ -36,4 +47,6 @@ Item.propTypes = {
   completed: PropTypes.bool,
 };
 
-export default Item;
+const mapDispatch2Props = dispatch => bindActionCreators({ find: findById }, dispatch);
+
+export default connect(null, mapDispatch2Props)(Item);

@@ -1,0 +1,872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modal />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="Modal__content"
+>
+        <a
+                className="Modal__close"
+                href="#modal-close"
+                title="Close"
+        >
+                <i
+                        className="fa fa-close"
+                />
+        </a>
+        <h1>
+                <input
+                        className="Modal__content__completed"
+                        defaultChecked={undefined}
+                        id="completed"
+                        onClick={[Function]}
+                        type="checkbox"
+                />
+                <label
+                        htmlFor="completed"
+                >
+                        <span />
+                </label>
+                <input
+                        className="Modal__content__name"
+                        type="text"
+                        value={undefined}
+                />
+        </h1>
+        <b>
+                Preço Unitário
+        </b>
+        <p>
+                R$ 
+                <input
+                        type="text"
+                        value={undefined}
+                />
+        </p>
+        <b>
+                Unidades
+        </b>
+        <p>
+                <input
+                        type="text"
+                        value={undefined}
+                />
+        </p>
+        <b>
+                Tipo
+        </b>
+        <p>
+                <input
+                        type="text"
+                        value={undefined}
+                />
+        </p>
+        <b>
+                Total
+        </b>
+        <p>
+                R$ 
+                NaN
+        </p>
+        <button
+                className="Modal__button"
+        >
+                Aplicar Alterações
+        </button>
+</div>,
+      "className": "Modal",
+      "id": "modal",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="Modal__close"
+            href="#modal-close"
+            title="Close"
+>
+            <i
+                        className="fa fa-close"
+            />
+</a>,
+          <h1>
+            <input
+                        className="Modal__content__completed"
+                        defaultChecked={undefined}
+                        id="completed"
+                        onClick={[Function]}
+                        type="checkbox"
+            />
+            <label
+                        htmlFor="completed"
+            >
+                        <span />
+            </label>
+            <input
+                        className="Modal__content__name"
+                        type="text"
+                        value={undefined}
+            />
+</h1>,
+          <b>
+            Preço Unitário
+</b>,
+          <p>
+            R$ 
+            <input
+                        type="text"
+                        value={undefined}
+            />
+</p>,
+          <b>
+            Unidades
+</b>,
+          <p>
+            <input
+                        type="text"
+                        value={undefined}
+            />
+</p>,
+          <b>
+            Tipo
+</b>,
+          <p>
+            <input
+                        type="text"
+                        value={undefined}
+            />
+</p>,
+          <b>
+            Total
+</b>,
+          <p>
+            R$ 
+            NaN
+</p>,
+          <button
+            className="Modal__button"
+>
+            Aplicar Alterações
+</button>,
+        ],
+        "className": "Modal__content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <i
+              className="fa fa-close"
+/>,
+            "className": "Modal__close",
+            "href": "#modal-close",
+            "title": "Close",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fa fa-close",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="Modal__content__completed"
+                defaultChecked={undefined}
+                id="completed"
+                onClick={[Function]}
+                type="checkbox"
+/>,
+              <label
+                htmlFor="completed"
+>
+                <span />
+</label>,
+              <input
+                className="Modal__content__name"
+                type="text"
+                value={undefined}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "Modal__content__completed",
+                "defaultChecked": undefined,
+                "id": "completed",
+                "onClick": [Function],
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span />,
+                "htmlFor": "completed",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "Modal__content__name",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Preço Unitário",
+          },
+          "ref": null,
+          "rendered": "Preço Unitário",
+          "type": "b",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "R$ ",
+              <input
+                type="text"
+                value={undefined}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "R$ ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Unidades",
+          },
+          "ref": null,
+          "rendered": "Unidades",
+          "type": "b",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              type="text"
+              value={undefined}
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tipo",
+          },
+          "ref": null,
+          "rendered": "Tipo",
+          "type": "b",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              type="text"
+              value={undefined}
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Total",
+          },
+          "ref": null,
+          "rendered": "Total",
+          "type": "b",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "R$ ",
+              NaN,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "R$ ",
+            NaN,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Aplicar Alterações",
+            "className": "Modal__button",
+          },
+          "ref": null,
+          "rendered": "Aplicar Alterações",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="Modal__content"
+>
+          <a
+                    className="Modal__close"
+                    href="#modal-close"
+                    title="Close"
+          >
+                    <i
+                              className="fa fa-close"
+                    />
+          </a>
+          <h1>
+                    <input
+                              className="Modal__content__completed"
+                              defaultChecked={undefined}
+                              id="completed"
+                              onClick={[Function]}
+                              type="checkbox"
+                    />
+                    <label
+                              htmlFor="completed"
+                    >
+                              <span />
+                    </label>
+                    <input
+                              className="Modal__content__name"
+                              type="text"
+                              value={undefined}
+                    />
+          </h1>
+          <b>
+                    Preço Unitário
+          </b>
+          <p>
+                    R$ 
+                    <input
+                              type="text"
+                              value={undefined}
+                    />
+          </p>
+          <b>
+                    Unidades
+          </b>
+          <p>
+                    <input
+                              type="text"
+                              value={undefined}
+                    />
+          </p>
+          <b>
+                    Tipo
+          </b>
+          <p>
+                    <input
+                              type="text"
+                              value={undefined}
+                    />
+          </p>
+          <b>
+                    Total
+          </b>
+          <p>
+                    R$ 
+                    NaN
+          </p>
+          <button
+                    className="Modal__button"
+          >
+                    Aplicar Alterações
+          </button>
+</div>,
+        "className": "Modal",
+        "id": "modal",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              className="Modal__close"
+              href="#modal-close"
+              title="Close"
+>
+              <i
+                            className="fa fa-close"
+              />
+</a>,
+            <h1>
+              <input
+                            className="Modal__content__completed"
+                            defaultChecked={undefined}
+                            id="completed"
+                            onClick={[Function]}
+                            type="checkbox"
+              />
+              <label
+                            htmlFor="completed"
+              >
+                            <span />
+              </label>
+              <input
+                            className="Modal__content__name"
+                            type="text"
+                            value={undefined}
+              />
+</h1>,
+            <b>
+              Preço Unitário
+</b>,
+            <p>
+              R$ 
+              <input
+                            type="text"
+                            value={undefined}
+              />
+</p>,
+            <b>
+              Unidades
+</b>,
+            <p>
+              <input
+                            type="text"
+                            value={undefined}
+              />
+</p>,
+            <b>
+              Tipo
+</b>,
+            <p>
+              <input
+                            type="text"
+                            value={undefined}
+              />
+</p>,
+            <b>
+              Total
+</b>,
+            <p>
+              R$ 
+              NaN
+</p>,
+            <button
+              className="Modal__button"
+>
+              Aplicar Alterações
+</button>,
+          ],
+          "className": "Modal__content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="fa fa-close"
+/>,
+              "className": "Modal__close",
+              "href": "#modal-close",
+              "title": "Close",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-close",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="Modal__content__completed"
+                  defaultChecked={undefined}
+                  id="completed"
+                  onClick={[Function]}
+                  type="checkbox"
+/>,
+                <label
+                  htmlFor="completed"
+>
+                  <span />
+</label>,
+                <input
+                  className="Modal__content__name"
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "Modal__content__completed",
+                  "defaultChecked": undefined,
+                  "id": "completed",
+                  "onClick": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span />,
+                  "htmlFor": "completed",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "Modal__content__name",
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preço Unitário",
+            },
+            "ref": null,
+            "rendered": "Preço Unitário",
+            "type": "b",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "R$ ",
+                <input
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "R$ ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Unidades",
+            },
+            "ref": null,
+            "rendered": "Unidades",
+            "type": "b",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                type="text"
+                value={undefined}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tipo",
+            },
+            "ref": null,
+            "rendered": "Tipo",
+            "type": "b",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                type="text"
+                value={undefined}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Total",
+            },
+            "ref": null,
+            "rendered": "Total",
+            "type": "b",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "R$ ",
+                NaN,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "R$ ",
+              NaN,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Aplicar Alterações",
+              "className": "Modal__button",
+            },
+            "ref": null,
+            "rendered": "Aplicar Alterações",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

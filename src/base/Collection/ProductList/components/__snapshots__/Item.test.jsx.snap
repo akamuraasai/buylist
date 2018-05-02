@@ -59,6 +59,7 @@ ShallowWrapper {
 </div>,
       ],
       "className": "ProductList__item ",
+      "onClick": [Function],
     },
     "ref": null,
     "rendered": Array [
@@ -246,6 +247,7 @@ ShallowWrapper {
 </div>,
         ],
         "className": "ProductList__item ",
+        "onClick": [Function],
       },
       "ref": null,
       "rendered": Array [
