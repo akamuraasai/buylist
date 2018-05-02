@@ -1,0 +1,21 @@
+.Topbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #fefefe;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 1px 0px #cbcbcb;
+    text-align: center;
+}
+
+.Topbar__item {
+    width: 15%;
+}
+
+.Topbar__title {
+    width: 70%;
+}

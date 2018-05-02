@@ -1,0 +1,30 @@
+{
+  "name": "buylist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "currency-formatter": "^1.4.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-scripts": "1.1.1",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js",
+      "!src/setupTests.js"
+    ]
+  }
+}
