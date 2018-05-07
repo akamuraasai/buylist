@@ -48,8 +48,10 @@ input[type="checkbox"]:checked + label span {
 }
 
 .Modal__content > * > input[type=text] {
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
+    -webkit-appearance: textfield !important;
+    -moz-appearance: textfield !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0px !important;
     width: 70px;
 }
 
